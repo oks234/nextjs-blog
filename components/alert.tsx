@@ -1,7 +1,9 @@
 import cn from "classnames";
 import styles from "./alert.module.css";
 
-export default function Alert({ children, type }) {
+export default function Alert({ children, type }: {
+  children: React.ReactNode, type: string
+}) {
   return (
     <div
       className={cn({

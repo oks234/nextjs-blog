@@ -1,0 +1,10 @@
+{
+  "trailingComma": "es5",
+  "tabWidth": 2,
+  "semi": true,
+  "eslintIntegration": true,
+  "endOfLine": "auto",
+  "parser": "typescript",
+  "useTabs": false,
+  "arrowParens": "always"
+}
