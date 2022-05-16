@@ -7,9 +7,12 @@ import utilStyles from "../styles/utils.module.css";
 const name = "Kyungseok";
 export const siteTitle = "Next.js Sample Website";
 
-export default function Layout({ children, home }: {
-  children: React.ReactNode,
-  home?: boolean
+export default function Layout({
+  children,
+  home,
+}: {
+  children: React.ReactNode;
+  home?: boolean;
 }) {
   return (
     <div className={styles.container}>

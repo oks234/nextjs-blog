@@ -23,10 +23,10 @@ export default function Home({
     id: string;
     date: string;
     title: string;
-  };
+  }[];
 }) {
   return (
-    <Layout home={true}>
+    <Layout home>
       <Head>
         <title>{siteTitle}</title>
       </Head>
